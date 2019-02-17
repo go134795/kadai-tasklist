@@ -15,7 +15,7 @@ class UserController extends Controller
     
     return view('users.index', ['users' => $users,]);
     }
-}
+
 
     public function show($id)
     {
@@ -25,3 +25,4 @@ class UserController extends Controller
             'user' => $user,
         ]);
     }
+}
